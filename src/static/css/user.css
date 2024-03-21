@@ -1,0 +1,176 @@
+/* BASIC */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.empty {
+    padding: 30px 0px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #b9b9b9;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 2px rgba(255,255,255,0.3);
+}
+
+.container {
+    width: 800px;
+    height: auto;
+    margin: 50px auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    
+}
+
+
+
+/* HEADER */
+.header {
+    margin: 0px 30px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: raw;
+    justify-content: space-between;
+}
+
+.welcome {
+    color: rgb(59, 59, 59);
+    flex-grow: 25;
+}
+
+.submit {
+    width: 150px;
+    padding: 10px 0;
+    margin-right: 10px;
+    display: block;
+    background-color: white;
+    font-size: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    text-decoration: none;
+    color: rgb(118, 117, 117);
+    border: none;
+    background-color: #515151;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 2px rgba(255,255,255,0.3);
+    flex-grow: 2;
+}
+
+.submit:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+
+/* ADD-TASK */
+input {
+    border: none;
+    background-color: rgb(241, 240, 240);
+    color: rgb(34, 34, 34);
+    font-size: 2px;
+}
+
+input:focus {
+    outline:none;
+}
+
+
+
+/* DASHBOARD */
+.tasks {
+    margin: 30px 30px 0px 30px;
+}
+
+.task {
+    display: flex;
+    flex-direction: raw;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    height: auto;
+    margin: 10px auto;
+}
+
+.delete-button, .add-button, .done-button {
+    flex-grow: 1;
+    text-align: center;
+    align-self: stretch;
+    background-color: rgba(53, 120, 84, 0.783);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    color: white;
+    border: none;
+}
+
+.done-button {
+    margin-right: 10px;
+}
+
+.delete-button {
+    background-color: rgba(146, 11, 11, 0.624); 
+}
+
+.add-button {
+    margin-left: 5px;
+}
+
+.done-button:hover, .add-button:hover, .delete-button:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    cursor: pointer;
+}
+
+.task-topic {
+    margin: 0px 10px;
+    color: black;
+    flex-basis: 200px;
+    flex-grow: 25;
+}
+
+.task-date {
+    color: black;
+    font-size: 11px;
+    flex-basis: 50px;
+    flex-grow: 2;
+    text-align: right;
+    text-align: center;
+    margin: 0px 10px;
+}
+
+.task-is-done {
+    border-right: 2px solid rgba(212, 212, 212, 0.736);
+    color: blue;
+    flex-basis: 3px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.is_done {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.undone {
+    background-color: rgba(255, 0, 0, 0.624);
+}
+
+.done {
+    background-color: rgba(53, 120, 84, 0.783);
+}
+
+
+
+/* FOOTER */
+.footer {
+    height: 40px;
+}
+
+
+
+/* USER_DATA */
+.user_data {
+    margin: 100px 30px;
+}
+
+.data_text {
+    color: rgba(119, 119, 119, 0.652);
+}

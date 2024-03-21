@@ -1,0 +1,99 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    padding: 100px 0px 0px 0px;
+    color: rgb(59, 59, 59);
+}
+
+.container {
+    width: 800px;
+    margin: 150px auto;
+    text-align: center;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    
+}
+
+@media (width: 600px) {
+    .container {
+        width: 400px !important;
+    }
+}
+
+
+.button:first-child {
+    margin-top: 50px;
+}
+
+
+.button a {
+    width: 200px;
+    padding: 20px 0;
+    display: block;
+    margin: 20px auto;
+    background-color: white;
+    font-size: 15px;
+    
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    text-decoration: none;
+    color: rgb(118, 117, 117);
+}
+
+
+.button a:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+
+
+
+
+
+.form {
+    margin: 50px;
+}
+
+.submit {
+    width: 200px;
+    padding: 20px 0;
+    display: block;
+    margin: 50px auto;
+    background-color: white;
+    font-size: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    text-decoration: none;
+    color: rgb(118, 117, 117);
+    border: none;
+}
+
+
+.submit:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+.row {
+    margin-top: 30px !important;
+}
+
+.input {
+    margin-left: 30px;
+}
+
+input {
+    border: none;
+    background-color: rgb(241, 240, 240);
+    color: rgb(34, 34, 34);
+    font-size: 2px;
+}
+
+input:focus {
+    outline:none;
+}
+
+.topic {
+    font-size: large;
+}
